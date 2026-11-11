@@ -6,135 +6,57 @@
 <title>Danyang Chen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#about">Skip to content</a>
 
 <header class="site-head">
-  <a class="wordmark" href="#top">Danyang Chen</a>
+  <a class="wordmark" href="#top">danyang chen</a>
   <nav aria-label="Primary">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#pubs">Papers</a>
-    <a href="#repos">Repositories</a>
-    <a href="#contact">Contact</a>
+    <a href="#about">about</a>
+    <a href="#work">work</a>
+    <a href="#earlier">earlier</a>
+    <a href="#pubs">papers</a>
+    <a href="#repos">repos</a>
+    <a href="#contact">contact</a>
   </nav>
 </header>
 
 <main id="top">
   <header class="page-intro">
-    <p class="eyebrow">Senior Engineer, Huawei · Ph.D., Duke University · Shanghai</p>
+    <p class="eyebrow">Shanghai · agents, then polymer physics</p>
     <h1>Danyang Chen</h1>
-    <p class="lede">Polymer-network mechanics, learned potentials for molecular crystals, and software for evolving and coordinating agents.</p>
+    <p class="lede">I build systems for agents that have to keep going—evolve against tests, coordinate, and talk to each other without going off the leash.</p>
   </header>
 
   <section id="about">
     <h2>About</h2>
-    <p>I am a senior engineer at Huawei Technologies in Shanghai—ORCID records the unit as the Parallel Distributed Computing Laboratory, starting 16 June 2024—and a Ph.D. graduate of Duke University (Mechanical Engineering and Materials Science, 2019–May 2024, advisor Michael Rubinstein). LinkedIn describes the current work as AI for Science.</p>
-    <p>The doctoral research asked a concrete materials question: how the architecture of a polymer network—cross-links that can slide, entanglements, and links that can break—sets elasticity, toughness, and fracture. That question is documented in the dissertation and in the papers below, including a first-author theory of <a href="https://doi.org/10.1021/acsmacrolett.3c00010">slide-ring gels</a> and coauthored studies of <a href="https://doi.org/10.1126/science.adg3229">force-triggered cyclobutane cross-linkers</a>, <a href="https://doi.org/10.1021/acscentsci.5c00932">reactive strand extension</a>, <a href="https://doi.org/10.1021/acsmacrolett.3c00097">chain tension versus bond compression</a>, and the <a href="https://doi.org/10.1021/acsmacrolett.5c00550">Kuhn length under extension</a>.</p>
-    <p>Later public work turns to learned interatomic potentials for organic molecular crystals (<a href="https://doi.org/10.1038/s41524-026-02315-3">OMC-bench and AtomBit-OMC</a>) and to agents that propose, implement, and evaluate model designs (<a href="https://doi.org/10.1021/prechem.6c00099">AutoResearch-MLIP</a>), or that merge many proposed edits to a prompt or skill against a held-out test (<a href="https://github.com/ThinkFlowLab/agentdescent">AgentDescent</a>).</p>
-    <p class="interp">A possible through-line is that both the polymer work and the later software ask how many coupled parts should change under a testable criterion—whether that criterion is a mechanical measurement or a held-out score. That is an interpretation, not a claim that the codebases implement the polymer models, and not a description of unpublished Huawei duties.</p>
-    <p class="note">Google Scholar reports 257 citations and an h-index of 5 as of a 29 Oct 2026 snapshot (Asia/Shanghai). The profile could not be refreshed on 11 Nov 2026 because of a Google traffic check. OpenAlex, on a partial record, reports 237 citations and h-index 4.</p>
+    <p>I work on self-evolving and multi-agent software: merging concurrent edits to a prompt or skill, running a local research workspace, and standing up long-lived bot teams. That is the present tense of this page.</p>
+    <p>I trained in polymer-network mechanics at Duke with Michael Rubinstein (Ph.D., Mechanical Engineering and Materials Science, 2019–May 2024). Since 16 June 2024 I have been a senior engineer at Huawei in Shanghai. ORCID records the unit as the Parallel Distributed Computing Laboratory; LinkedIn describes the work as AI for Science.</p>
+    <p class="interp">A connection I sometimes draw, as interpretation rather than a formal claim: both lines of work ask how many coupled parts should change under a testable criterion. The code does not implement the polymer models.</p>
   </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <p class="lead-in">Dates and titles below are from ORCID and the public LinkedIn record. What each role worked on is limited to those sources plus identifiable public papers and repositories. No unpublished job duties are added.</p>
+  <section id="work">
+    <h2>Work</h2>
+    <p class="lead-in">Agent systems first. ScienceDiscovery and JiuwenSwarm are projects I have confirmed as mine. I do not invent titles or metrics. Counts below, where I mention them, are public snapshots from 11 Nov 2026.</p>
 
-    <article class="post">
-      <header>
-        <h3>Trainee, NSF Center for the Chemistry of Molecularly Optimized Networks (MONET)</h3>
-        <p class="meta"><time datetime="2020-09">Sep 2020</time>–<time datetime="2024-05">May 2024</time></p>
-      </header>
-      <p>LinkedIn lists this traineeship across most of the Duke doctoral period. Several of the papers below carry a MONET affiliation, including the <i>Science</i> and <i>ACS Macro Letters</i> network papers and the <i>ACS Central Science</i> study of reactive strand extension. In 2024 the Royal Society of Chemistry awarded the Materials Chemistry Horizon Prize to NSF MONET as a team; Danyang Chen is listed as a Graduate Student, Duke University, on the <a href="https://www.rsc.org/standards-and-recognition/prizes/winners/nsf-center-for-molecularly-optimized-networks">prize page</a>—not as an individual winner.</p>
+    <article class="project">
+      <img src="img/p-agentdescent.webp" width="160" height="112" alt="" decoding="async">
+      <div>
+        <h3><a href="https://github.com/ThinkFlowLab/agentdescent">AgentDescent</a></h3>
+        <p class="meta">ThinkFlowLab/agentdescent · MIT · <a href="https://pypi.org/project/agentdescent/">PyPI</a> · <a href="https://thinkflowlab.github.io/agentdescent/">docs</a></p>
+        <p>I built AgentDescent so a prompt, a skill directory, or agent code can evolve under many concurrent edits. The edits are diffs, not gradients: they conflict and have to be merged, not averaged. Workers propose against a git ledger; an aggregator fuses, gates on a held-out test, and commits with compare-and-swap. I am the sole author of the <a href="https://doi.org/10.5281/zenodo.22348026">preprint</a>. In one reported setting (BBH <code>dyck_languages</code>, GLM-5.2, N&nbsp;=&nbsp;4, 4 seeds) reflective merge fused 42 of 48 where a keyed union fused 0, with 40% fewer model calls (95% CI 27–54%).</p>
+      </div>
     </article>
-
-    <article class="post">
-      <header>
-        <h3>Teaching Assistant, Duke University</h3>
-        <p class="meta"><time datetime="2021-01">Jan 2021</time>–<time datetime="2022-12">Dec 2022</time></p>
-      </header>
-      <p>LinkedIn lists teaching in soft matter, polymer physics, and thermodynamics. No course numbers or teaching evaluations are available from the public sources used here.</p>
-    </article>
-
-    <article class="post">
-      <header>
-        <h3>Research Assistant, Duke University</h3>
-        <p class="meta"><time datetime="2022-07">Jul 2022</time>–<time datetime="2024-05">May 2024</time> · advisor Michael Rubinstein</p>
-      </header>
-      <p>This appointment covers the later years of the Ph.D. LinkedIn describes the methods as molecular-dynamics and Monte Carlo simulation of polymer networks in LAMMPS. The public papers from this period, and the dissertation <a href="https://search.proquest.com/openview/a7b88d838817b336a4bf31e938b5bd2c/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y"><cite>Elasticity and Fracture of Polymer Networks with Entanglements and Weak Crosslinkers</cite></a>, take up three related designs:</p>
-      <ul>
-        <li>Cross-links that slide. The first-author paper <a href="https://doi.org/10.1021/acsmacrolett.3c00010">Elasticity of Slide-Ring Gels</a> (2023) develops a single-chain model of the “pulley effect” and of fluctuations in monomers per strand, which together lower the modulus relative to fixed cross-links and produce strain-softening. A public tool, <a href="https://github.com/Birfy/SCSR">SCSR</a>, implements a single-chain slide-ring simulation for stress–strain curves; this page does not claim that the paper ran that exact repository.</li>
-        <li>Cross-links or strands that yield under force. A team <i>Science</i> paper (5th author) shows that cyclobutane mechanophore cross-linkers breaking by cycloreversion can make networks up to nine times as tough as conventional analogs. A later team paper in <i>ACS Central Science</i> (8th author) varies fused-ring size from 5 to 12 carbons so that strands share the same initial contour length but differ in reactive extension, and reports the first evidence of that effect in a single-network gel.</li>
-        <li>What “extension” means at chain versus bond scale. Coauthored work (Liel Sapir first) shows, in molecular dynamics, that a chain can be under increasing tension while its bonds are compressed because pressure often dominates bond tension, and that the Kuhn length itself falls as force or confinement cuts off long-range bond correlations.</li>
-      </ul>
-      <p>APS March Meeting abstracts from 2022–2024 on slide-ring elasticity, Kuhn length, bond compression, and entanglements are listed with the papers. This page does not add unpublished experimental details.</p>
-    </article>
-
-    <article class="post">
-      <header>
-        <h3>Senior Engineer, Huawei Technologies</h3>
-        <p class="meta"><time datetime="2024-06-16">16 Jun 2024</time>–present · Shanghai</p>
-      </header>
-      <p>ORCID records the Parallel Distributed Computing Laboratory and the start date 16 June 2024 (current). LinkedIn places the role in Shanghai and describes it as AI4S. This is not Huawei 2012 Laboratory.</p>
-      <p>Two 2026 papers list a Huawei affiliation in Shenzhen (not a substitute for the ORCID laboratory name): <a href="https://doi.org/10.1038/s41524-026-02315-3">OMC-bench and AtomBit-OMC</a>, on which I am an equal-contribution coauthor but not a corresponding author, and <a href="https://doi.org/10.1021/prechem.6c00099">AutoResearch-MLIP</a>, on which I am second author. Public agent software from the same period is under Projects. Those items are public papers and repositories; this page does not treat them as official Huawei products and does not invent internal duties or a title beyond Senior Engineer.</p>
-    </article>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <article class="post">
-      <header>
-        <h3>Ph.D., Mechanical Engineering and Materials Science, Duke University</h3>
-        <p class="meta">2019–May 2024 · advisor Michael Rubinstein</p>
-      </header>
-      <p>Dissertation: <a href="https://search.proquest.com/openview/a7b88d838817b336a4bf31e938b5bd2c/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y"><cite>Elasticity and Fracture of Polymer Networks with Entanglements and Weak Crosslinkers</cite></a>.</p>
-    </article>
-    <article class="post">
-      <header>
-        <h3>B.S.E., Macromolecular Science, Fudan University</h3>
-        <p class="meta">2015–Jun 2019 · advisor Weihua Li</p>
-      </header>
-      <p>ORCID records the degree (it misspells “Bachelor”) and the advisor. Public tools from around this period include <a href="https://github.com/Birfy/ABCDEN">ABCDEN</a> (a GUI for SCFT of ABC dendritic block copolymers), <a href="https://github.com/Birfy/DSCFT">DSCFT</a> (SCFT and external-field dynamics for block-copolymer melts, using a continuous Gaussian-chain model and a pseudospectral diffusion solver), <a href="https://github.com/Birfy/Endlinking">Endlinking</a> (a LAMMPS script for end-linking polymer networks), and <a href="https://github.com/Birfy/nnPDE">nnPDE</a> (a neural-network PDE solver). They are also in the repository catalog.</p>
-    </article>
-    <article class="post">
-      <header>
-        <h3>Exchange student, Faculty of Arts &amp; Science, University of Toronto</h3>
-        <p class="meta">Sep–Dec 2017</p>
-      </header>
-      <p>Recorded on ORCID. No course list is given there.</p>
-    </article>
-  </section>
-
-  <section id="honors">
-    <h2>Honors</h2>
-    <article class="post">
-      <header>
-        <h3>2024 Materials Chemistry Horizon Prize, Royal Society of Chemistry</h3>
-        <p class="meta">Team award to NSF MONET</p>
-      </header>
-      <p>Listed as Graduate Student, Duke University, on the <a href="https://www.rsc.org/standards-and-recognition/prizes/winners/nsf-center-for-molecularly-optimized-networks">RSC prize page</a>. Also noted by <a href="https://chem.duke.edu/news/monet-center-wins-prestigious-royal-society-chemistry-prize">Duke Chemistry</a> and <a href="https://www.monetcci.org/post/rsc-2024-materials-chemistry-horizon-prize">MONET</a> (12 Jun 2024).</p>
-    </article>
-    <p class="note">Also listed on LinkedIn only, and not independently confirmed on issuer sites in the sources used here: Honor Student Award, Fudan (Jul 2019); First Prize, CSIAM Contemporary Undergraduate Mathematical Contest in Modeling (Dec 2018); Duke MEMS Fellowship and MatSci Scholarship (dates not given).</p>
-  </section>
-
-  <section id="projects">
-    <h2>Selected projects</h2>
-    <p class="lead-in">Each entry states what the public software does—problem, mechanism, and what a user can run or obtain—then, where a source supports it, my documented relation to the work. ScienceDiscovery and JiuwenSwarm are included as projects I have confirmed as mine. Star counts, where mentioned, are a repository snapshot from 11 Nov 2026 and are not a measure of personal impact. Expand “Sources and measurements” for figures, conditions, and links.</p>
 
     <article class="project">
       <img src="img/p-sciencediscovery.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/openJiuwen-ai/sciencediscovery">ScienceDiscovery</a></h3>
-        <p class="meta">openJiuwen-ai/sciencediscovery · Apache-2.0 · v0.3.0 · <a href="https://sciencediscovery.github.io/index.html">project site</a> · <a href="https://sciencediscovery.github.io/docs/">docs</a></p>
-        <p>A local research workspace so that literature, code, and experiments stay in one project, with a trace from a claim back to the run that produced it. After connecting your own model API, you create a Project and a Session, drop a CSV or PDF into the workspace, describe the analysis, approve the first tool execution, follow tool calls on a timeline, and open the files the task declares as Artifacts.</p>
-        <p>Scientific MCP connectors (PubMed, arXiv, Europe PMC, PDB, UniProt, Reactome, or a server you add) land papers and data in the workspace without per-site API wiring. Python, R, and shell run in a sandbox; long jobs continue in the background. A PDB file opens in a built-in Mol* viewer (rotate, zoom, sequence panel, atoms colored by layer). For something measurable—a program, a parameter table, or a prompt—Evolve generates variants, scores them, validates the winner on held-out data, and keeps each variant’s code, score, and run record so it can be rolled back.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>I have confirmed this as one of my projects. A partial public pull-request search found 18 merged and 3 closed authored PRs on the canonical repository, and a per-repo search found 12 merged PRs on <a href="https://github.com/ScienceDiscovery/sciencediscovery.github.io">the project website repository</a>. <a href="https://github.com/Birfy/sciencediscovery">Birfy/sciencediscovery</a> is a public fork. The README cites a third-party BiomniBench-DA comparison; that figure is not repeated here as a personal result. Snapshot: 195 stars on 11 Nov 2026.</p>
-        </div></details>
+        <p class="meta">openJiuwen-ai/sciencediscovery · Apache-2.0 · v0.3.0 · <a href="https://sciencediscovery.github.io/index.html">site</a> · <a href="https://sciencediscovery.github.io/docs/">docs</a></p>
+        <p>A local research workspace I work on: you bring a model API, drop data into a project, approve tool calls, and keep a trace from a claim back to the run. Scientific MCP connectors land papers and structures in the workspace; Python, R, and shell run sandboxed; a measurable artifact can be evolved against a held-out check and rolled back.</p>
       </div>
     </article>
 
@@ -142,25 +64,8 @@
       <img src="img/p-jiuwenswarm.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/openJiuwen-ai/jiuwenswarm">JiuwenSwarm</a></h3>
-        <p class="meta">openJiuwen-ai/jiuwenswarm · Apache-2.0 · install as <code>workswarm</code> · <a href="https://openjiuwen.com/en/">openjiuwen.com</a> · <a href="https://github.com/openJiuwen-ai/jiuwenswarm/blob/main/docs/en/AgentTeam.md">Agent Team guide</a></p>
-        <p>Built for long, multi-phase jobs that a single agent would have to do serially—for example, research an industry and deliver a report. In cluster (Agent Team) mode you state the goal in one message. A Leader interprets the request, forms a team of specialized agents, and decomposes work into tasks with prerequisite, dependent, or parallel edges. Teammates claim matching tasks, execute, and report back; the Leader merges artifacts into the final deliverable. You do not assign each sub-task by hand.</p>
-        <p>Members share a <code>team-workspace</code> for intermediates; skills live in one library, with allow/deny visibility rather than copied skill trees. Swarmflow is a scripted multi-stage path (including human-in-the-loop steps, a team token budget, and TUI monitoring). The same agent can be reached from a browser, a terminal, or chat channels (for example Feishu, Slack, or Telegram). Tools ask for approval before they run; file access goes through an allowlist.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>I have confirmed this as one of my projects. A partial public pull-request search found one open authored PR on the canonical repository and did not list merged ones in that pass; that is not a complete contribution history. <a href="https://github.com/Birfy/jiuwenswarm">Birfy/jiuwenswarm</a> is a public fork. The 11 Nov 2026 star count (8,579) describes the repository, not individual impact.</p>
-        </div></details>
-      </div>
-    </article>
-
-    <article class="project">
-      <img src="img/p-agentdescent.webp" width="160" height="112" alt="" decoding="async">
-      <div>
-        <h3><a href="https://github.com/ThinkFlowLab/agentdescent">AgentDescent</a></h3>
-        <p class="meta">ThinkFlowLab/agentdescent · MIT · <a href="https://pypi.org/project/agentdescent/">PyPI</a> · <a href="https://thinkflowlab.github.io/agentdescent/">docs</a> · <a href="https://thinkflowlab.github.io/agentdescent/docs/">architecture</a></p>
-        <p>A way to evolve a prompt, a skill directory, agent code, or a host plugin against your own examples, without accepting only one change at a time. Concurrent edits are diffs, not gradients: they can conflict and must be merged, not averaged. You can call <code>evolve()</code> from Python, run <code>agentdescent init / plan / evolve / apply</code> from the CLI (nothing is written back until <code>apply</code>, which makes a backup first), or use a host plugin (Claude Code, Codex, OpenCode, DeepSeek Harness, or a Grok Bot scaffold).</p>
-        <p>N workers each take a snapshot of a git-backed ledger, roll out tasks, and emit a diff plus an evidence card. A single aggregator, per artifact, then: filters stale proposals; drops contradictions; fuses complementary diffs; runs an audit/oracle gate; accepts a candidate only if a Beta test gives <i>P</i>(Δ&gt;0)&nbsp;&gt;&nbsp;1−δ; and commits with compare-and-swap onto <code>dev</code> and <code>stable</code> branches. Two runtimes share that pipeline: a synchronous round-barrier loop, and a barrier-free async loop in which workers never wait and ledger lag (η) can grow.</p>
-        <details class="more"><summary>Sources, measurements, and documented role</summary><div>
-          <p>I am the sole author of the preprint <a href="https://doi.org/10.5281/zenodo.22348026">AgentDescent: Asynchronous Parallel Self-Evolution of LLM Agents by Merging Conflicting Edits</a> (Zenodo). The project README and docs report, among other settings: on BBH <code>dyck_languages</code> with GLM-5.2, <i>N</i>&nbsp;=&nbsp;4, and 4 seeds, a keyed union fused 0 of 48 merges and reflective merge fused 42 of 48, with 40% fewer model calls (95% CI 27–54%, same direction on every seed); on 40 HotpotQA items (12 held out), a <code>SingleSlot</code> instruction went from held-out exact match 0.167 to 0.583. Those figures belong to the stated settings, not to a star count. A per-repository search on 11 Nov 2026 found 414 authored PRs on the canonical repository (409 merged, 4 open). <a href="https://github.com/Birfy/agentdescent">Birfy/agentdescent</a> is a public fork.</p>
-        </div></details>
+        <p class="meta">openJiuwen-ai/jiuwenswarm · Apache-2.0 · <code>workswarm</code> · <a href="https://github.com/openJiuwen-ai/jiuwenswarm/blob/main/docs/en/AgentTeam.md">Agent Team</a></p>
+        <p>I work on JiuwenSwarm for jobs a single agent would have to grind through serially. You state a goal; a Leader forms a team, splits work along prerequisite or parallel edges, and merges what comes back. Shared workspace, skill allow/deny, optional human-in-the-loop Swarmflows, and tools that wait for approval.</p>
       </div>
     </article>
 
@@ -168,38 +73,8 @@
       <img src="img/p-flybot.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/ThinkFlowLab/FlyBot">FlyBot</a></h3>
-        <p class="meta">ThinkFlowLab/FlyBot · Apache-2.0 · <a href="https://github.com/ThinkFlowLab/FlyBot#see-it-work">README demos</a></p>
-        <p>A local team of long-lived bots in the browser, built on DeepSeek Harness, for work that should still be there the next day—notes, folders, models, and schedules included. You talk only to the Chief. It splits a request one level down: a bot with children coordinates, a leaf does the work, and the Chief returns one answer. Any bot can create a child for a slice of work; a bot idle for 30 days is archived, never deleted, and a reorganization can be undone.</p>
-        <p>Social features are opt-in and talk to a <a href="https://github.com/Birfy/bot-social">Bot Social</a> server you host; sharing is one bot at a time and off by default, and outbound lines can wait for an Approve card. Face-to-face rooms use the same 6-digit code within about ten minutes and need no prior friendship. The app also has a task board, group chats, flowchart workflows (in v1 a step posts progress and moves on; it does not yet call that bot’s model), a project plugin, schedules, and GitHub or Composio connectors. The README states that FlyBot is an independent community project, not an official DeepSeek product, and is tested against DeepSeek Harness 0.2.1-rc.2.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>A per-repository search on 11 Nov 2026 found 813 authored PRs on the canonical repository (785 merged, 3 open). That is a substantial public contribution record, not a formal title such as “lead” or “founder.” <a href="https://github.com/Birfy/FlyBot">Birfy/FlyBot</a> is a public fork. The related control-plane repository is listed separately below.</p>
-        </div></details>
-      </div>
-    </article>
-
-    <article class="project">
-      <img src="img/p-system1.svg" width="160" height="112" alt="" decoding="async">
-      <div>
-        <h3><a href="https://github.com/ThinkFlowLab/system1-agents">system1-agents</a></h3>
-        <p class="meta">ThinkFlowLab/system1-agents · Apache-2.0 · <a href="https://github.com/ThinkFlowLab/system1-agents#how-it-works">how it works</a></p>
-        <p>A chat model is often asked to make a forced choice among a few options—hit or stand, pick a support queue, click a control—when a smaller decision model would suffice. Each agent here is an openJiuwen agent whose <code>model</code> slot, on a decision turn, is a System 1 model (Jev, Laya, Cua-S1, or OmniJev over a screenshot). The model receives the state and the options and returns one choice with probabilities; planning, typed values, and free text stay with the chat model in the same agent.</p>
-        <p>You can call <code>s1a decide</code> or <code>s1a run</code> from the command line, serve <code>list_agents</code>, <code>run_agent</code>, and <code>decide</code> over MCP, or add a host skill. Shipping examples include browser use (Allrecipes, Google Flights), computer use through Cua Driver, a 30-ticket router, ALFWorld, and the games 2048, Millionaire, and Blackjack, plus a fail-closed injection guard.</p>
-        <details class="more"><summary>Sources, measurements, and documented role</summary><div>
-          <p>The README reports wall-clock and cost comparisons under named conditions, for example Blackjack (20 moves setting in the table): 2.3&nbsp;s versus 14.7&nbsp;s (6.39×) and a 25.3× cost difference versus the chat model; Allrecipes, 35.7&nbsp;s versus 138.7&nbsp;s. Those figures describe the software in those runs, not a personal performance record. A partial public PR search found 4 merged and 8 open authored PRs; this was not a completed per-repo recount. <a href="https://github.com/Birfy/system1-agents">Birfy/system1-agents</a> is a public fork.</p>
-        </div></details>
-      </div>
-    </article>
-
-    <article class="project">
-      <img src="img/p-opendirector.svg" width="160" height="112" alt="" decoding="async">
-      <div>
-        <h3><a href="https://github.com/ThinkFlowLab/OpenDirector">OpenDirector</a></h3>
-        <p class="meta">ThinkFlowLab/OpenDirector · Apache-2.0 · v0.1.0, 6 Nov 2026 · <a href="https://github.com/ThinkFlowLab/OpenDirector#what-you-can-do">README</a></p>
-        <p>A local AI video workspace, used in the browser, that runs from an idea to an exported short film on your machine. The documented path is: connect the model services you choose; generate or upload assets; organize them on a canvas (nodes, <code>@</code> references, generation history); edit (crop, color, layers; image extension, erasing, or background removal if the connected model supports it); arrange a timeline (in and out points, speed, volume); and export an MP4, or JSON, FCPXML, or an asset bundle. Projects save locally; generation uses provider APIs or self-hosted services you configure.</p>
-        <p>The first release is v0.1.0 (6 Nov 2026). The README includes an example 60-second film, <cite>We Can Still Win</cite>, with canvas, shots, and timeline documented in the repository.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>A per-repository search on 11 Nov 2026 found 2 open authored PRs and 0 merged. That is a modest, clearly scoped contribution, not a claim of project leadership. <a href="https://github.com/Birfy/OpenDirector">Birfy/OpenDirector</a> is a public fork.</p>
-        </div></details>
+        <p class="meta">ThinkFlowLab/FlyBot · Apache-2.0 · on DeepSeek Harness 0.2.1-rc.2, not an official DeepSeek product</p>
+        <p>A local team of long-lived bots in the browser. You talk only to the Chief; it splits one level down; leaves do the work. I have 785 merged pull requests on the canonical repository as of 11 Nov 2026—that is a contribution record, not a title. Social features are opt-in and talk to a Bot Social server you host.</p>
       </div>
     </article>
 
@@ -207,12 +82,8 @@
       <img src="img/p-botsocial.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/Birfy/bot-social">bot-social</a></h3>
-        <p class="meta">Birfy/bot-social · MIT · public original · <a href="https://birfy.github.io/bot-social/">documentation site</a></p>
-        <p>A self-hosted social network for AI assistants in which one person’s bot can talk to another’s, while friendships and outbound words stay under human control. You run the server yourself—there is no shared public instance. A <code>/setup</code> flow creates an owner account and a bot and adds an MCP connector. Friendships need both owners. <code>send_message</code> writes a draft; <code>decide_approval</code> does nothing until the owner types a 6-character code (five minutes, single use, bound to the account, the tool, and the arguments), so a bot cannot approve itself.</p>
-        <p>Messages travel as Ed25519-signed envelopes with replay protection. Peer content is marked untrusted. Face-to-face rooms can be joined with the same 6-digit number, or a short-lived <code>/r/&lt;ticket&gt;</code> link, within ten minutes, without a prior friendship. FlyBot’s social plugin is documented as a client of a Bot Social server you host.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>This is a public original repository under Birfy. The README test badge reads 184 tests passing. No organizational title is attached beyond ownership of this repository.</p>
-        </div></details>
+        <p class="meta">Birfy/bot-social · MIT · <a href="https://birfy.github.io/bot-social/">docs</a></p>
+        <p>I built a self-hosted network so one person's assistant can talk to another's, with friendships and outbound text under human control. There is no shared public instance. <code>send_message</code> writes a draft; nothing goes out until the owner types a short, single-use code.</p>
       </div>
     </article>
 
@@ -220,25 +91,26 @@
       <img src="img/p-agentrosetta.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/Birfy/agentrosetta">agentrosetta</a></h3>
-        <p class="meta">Birfy/agentrosetta · Apache-2.0 · public original · specification 2.1 · <a href="https://github.com/Birfy/agentrosetta/blob/main/spec/SPEC.md">spec</a></p>
-        <p>A language for agents talking to one another, so that confidence and unknowns are not lost in prose and a span of text can be pointed at and checked without first “understanding” the answer. The governing rule is that anything with an address can carry epistemic state. Messages use ordinary-language acts (<code>ask</code>, <code>tell</code>, <code>do</code>, and others) with explicit confidence (<code>~hi</code>, <code>~mid</code>, <code>~lo</code>), named unknowns, and evidence; a second plane carries byte-exact text with standoff annotations at character addresses. There is no construct that can change a recipient’s prompt or permissions.</p>
-        <p>A single Python file with no runtime dependencies parses, validates, and renders messages. Card R in the prompt pack (about 1,500 tokens) teaches the language. The README reports token and fidelity measurements in CI, and states plainly that task success at a fixed budget has not been measured.</p>
-        <details class="more"><summary>Sources and measurements</summary><div>
-          <p>Measured in the README’s harnesses: about 21% compression on short exchanges and 14% on a 24-message conversation versus equal-information prose; for three reviewers on a 569-token diff, total tokens billed 2,506 versus 1,183 (−53%), mostly from not handing each agent the whole artifact; 55 of 55 information items machine-extractable from the AST, versus 0 of 55 from the prose baselines without an NLP pass; epistemic fields about 16% of the wire form. The efficiency case is described as modest per message and larger per mesh once shared context dominates. This is a public original under Birfy (README badge: 138 tests; self-test: 119 assertions).</p>
-        </div></details>
+        <p class="meta">Birfy/agentrosetta · Apache-2.0 · spec 2.1</p>
+        <p>I built a small language so agents can address claims, confidence, and unknowns instead of burying them in prose. One Python file, no runtime dependencies. The README measures token cost and extractability; it does not claim task-success gains.</p>
       </div>
     </article>
 
     <article class="project">
-      <img src="img/p-flybot-cp.svg" width="160" height="112" alt="" decoding="async">
+      <img src="img/p-system1.svg" width="160" height="112" alt="" decoding="async">
       <div>
-        <h3><a href="https://github.com/Birfy/flybot-control-plane">flybot-control-plane</a></h3>
-        <p class="meta">Birfy/flybot-control-plane · public original · last push 31 Oct 2026</p>
-        <p>The operational side of a FlyBot deployment: an admin and user web panel, a FastAPI backend, and a host manager, rather than the chat application itself. <code>control_plane/</code> is the API (auth, invites, runtimes, upgrades, and a bridge to the manager) with Alembic migrations; <code>dashboard/</code> is a static panel for login, registration, account, and console; <code>manager/</code> is a host-side worker with systemd units that provision per-user runtimes, run backup and restore, drive an upgrade pipeline, and renew certificates; <code>deploy/</code> holds Docker Compose files and Traefik route generators.</p>
-        <p>Secrets and host-specific values are read from environment files that are not in the repository. The manager scripts assume the project root <code>/srv/flybot-platform-botawaken</code> unless the units are adjusted.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>This is a public original under Birfy. It complements the canonical FlyBot application; the two README files are not treated here as a single product claim beyond what they state.</p>
-        </div></details>
+        <h3><a href="https://github.com/ThinkFlowLab/system1-agents">system1-agents</a></h3>
+        <p class="meta">ThinkFlowLab/system1-agents · Apache-2.0</p>
+        <p>I have contributed to this openJiuwen setup: a small System 1 model takes the forced choice, and the chat model keeps planning. README timings are the project's, not mine.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <img src="img/p-opendirector.svg" width="160" height="112" alt="" decoding="async">
+      <div>
+        <h3><a href="https://github.com/ThinkFlowLab/OpenDirector">OpenDirector</a></h3>
+        <p class="meta">ThinkFlowLab/OpenDirector · Apache-2.0 · v0.1.0, 6 Nov 2026</p>
+        <p>A local AI video workspace: connect models, arrange a canvas, edit, cut a timeline, export. My public contribution here is modest—2 open pull requests, none merged, as of 11 Nov 2026.</p>
       </div>
     </article>
 
@@ -246,12 +118,17 @@
       <img src="img/p-jitagent.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/Birfy/jitagent">jitagent</a></h3>
-        <p class="meta">Birfy/jitagent · MIT · public original · <a href="https://pypi.org/project/jitagent/">PyPI</a> · working prototype</p>
-        <p>If an agent is asked to rank, parse, or clean records two hundred times, it will often re-derive the same pure function on every call—slowly, and not always identically. jitagent compiles a sentence plus a few seed examples into a named, versioned function that later calls can run in a sandbox without spending tokens. Test cases are written first, before any implementation exists; later calls write the code, run a static check, execute every case, and repair against structured feedback (<code>input / expected / actual / traceback</code>). The registry is organized around those cases. A call is a pure read: schema check, sandbox, return schema—nothing is written to disk.</p>
-        <p>Lookup is exact hash, then candidate retrieval plus a re-run of this run’s examples, otherwise a miss and a new synthesis. The README reports offline audits and also the limits of those audits.</p>
-        <details class="more"><summary>Sources, measurements, and documented role</summary><div>
-          <p>README audits (six reference implementations written before any generated case or code): 48/48 generated expectations agreed with the references; 18/18 planted traps were exercised; 12/12 compiles in the reported rounds, all on the first attempt; 2,400/2,400 random inputs agreed. There are 102 unit tests that need no network. Documented gaps include that the numbers rest on Claude Haiku 4.5, that the requirements and the audit oracle come from the same person, and that the repair loop was largely untested after a sandbox <code>strptime</code> fix. Public original under Birfy.</p>
-        </div></details>
+        <p class="meta">Birfy/jitagent · MIT · <a href="https://pypi.org/project/jitagent/">PyPI</a> · prototype</p>
+        <p>I built jitagent so a repeated ranking or parsing job can compile into a named, versioned function and stop spending tokens on the same pure work. Cases are written before any implementation exists; later calls run in a sandbox. The README audits are real and also list their limits.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <img src="img/p-flybot-cp.svg" width="160" height="112" alt="" decoding="async">
+      <div>
+        <h3><a href="https://github.com/Birfy/flybot-control-plane">flybot-control-plane</a></h3>
+        <p class="meta">Birfy/flybot-control-plane · public original</p>
+        <p>I built the operational side around FlyBot: a FastAPI control plane, an admin panel, a host manager, and Compose/Traefik deploy files. Secrets stay out of the repository.</p>
       </div>
     </article>
 
@@ -259,12 +136,8 @@
       <img src="img/p-ose.svg" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/Birfy/OSE">OSE (OffSkillEvo)</a></h3>
-        <p class="meta">Birfy/OSE · public original · last push 27 May 2026</p>
-        <p>An offline prototype for evolving <code>SKILL.md</code> files from stored trajectories rather than during a live task. The README gives three stages, each a command: <code>run_trajectory_gen</code> takes a task file and a skill directory and writes skill-augmented trajectories; <code>run_evolution</code> reads those trajectories and updates skills over a stated number of rounds, using G(s) grouping, proposal search, model scoring, and Pareto gating, and writes an evolution log; <code>run_evaluation</code> scores skill quality, trajectory alignment, and task outcome against a benchmark and listed conditions.</p>
-        <p>Model-backed steps are delegated to a Codex agent runtime (<code>codex exec</code>). <code>--dry-run</code> produces local sample trajectories without API calls. A SkillLearnBench rollout path is documented. The README presents the work as a prototype; no additional performance claims are made here.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>This is a public original under Birfy.</p>
-        </div></details>
+        <p class="meta">Birfy/OSE · prototype</p>
+        <p>An offline prototype I built to evolve <code>SKILL.md</code> files from stored trajectories, in three commands, rather than during a live task. I am not adding numbers the README does not claim.</p>
       </div>
     </article>
 
@@ -272,24 +145,66 @@
       <img src="img/p-openclaw.webp" width="160" height="112" alt="" decoding="async">
       <div>
         <h3><a href="https://github.com/Birfy/openclaw-rl-ascend">openclaw-rl-ascend</a></h3>
-        <p class="meta">Birfy/openclaw-rl-ascend · public original · <a href="https://github.com/Birfy/openclaw-rl-ascend/blob/main/docs/RUNBOOK.md">runbook</a></p>
-        <p>A reproducible package for running OpenClaw-RL’s hybrid Top-K Select training—online GRPO plus on-policy distillation—on Huawei Ascend 910B (Atlas A2) clusters, using GSM8K multi-turn dialogues. On the training node, Ray hosts actor training on 4 NPUs (Megatron, tensor-parallel 2 × data-parallel 2), SGLang rollout on 2 NPUs at port 30000, and a frozen teacher on 2 NPUs. A feeder container runs <code>sim_joint.py</code>, in which an external simulator plays student, teaching assistant, and teacher roles through the openclaw CLI against the 7,473-question GSM8K train split. A second node joins as a Ray worker and runs a PRM engine that scores rollouts and proposes hints. The mixed loss is computed in <code>openclaw_topk_select_loss</code>. There is no shared filesystem: every node must hold the same path.</p>
-        <p>The repository keeps code and scripts and excludes weights, checkpoints, and images. A runbook goes from bare metal to training loss. Packaged fixes include an LSE bug in teacher log-probabilities, skipping non-finite gradients, and a rollout repetition penalty. A documented limitation is that the teacher stays frozen, which is not the paper’s on-policy <i>π</i><sub>old</sub>&nbsp;+&nbsp;hint teacher. The method is described as aligned with arXiv:2603.10165; that preprint is not listed among my papers unless a public author list is confirmed.</p>
-        <details class="more"><summary>Sources and documented role</summary><div>
-          <p>This is a public original under Birfy. The engineering notes above are from the repository, not new results claimed here.</p>
-        </div></details>
+        <p class="meta">Birfy/openclaw-rl-ascend · <a href="https://github.com/Birfy/openclaw-rl-ascend/blob/main/docs/RUNBOOK.md">runbook</a></p>
+        <p>I packaged OpenClaw-RL's GRPO plus Top-K distillation for Ascend 910B clusters, with a runbook from bare metal to training loss. The method follows arXiv:2603.10165; that paper is not one of mine unless a public author list says so. In this package the teacher stays frozen, which is a documented gap versus the paper.</p>
       </div>
     </article>
+  </section>
 
-    <p class="note">Earlier public tools from the polymer-physics period, already mentioned under Education, are also in the catalog: <a href="https://github.com/Birfy/ABCDEN">ABCDEN</a>, <a href="https://github.com/Birfy/Endlinking">Endlinking</a>, <a href="https://github.com/Birfy/SCSR">SCSR</a> (single-chain slide-ring stress–strain simulation), and <a href="https://github.com/Birfy/DSCFT">DSCFT</a>.</p>
+  <section id="earlier">
+    <h2>Earlier</h2>
+    <p>Before the agent work I was in polymer physics. The question was how a network's architecture—cross-links that can slide, entanglements, links that can break—sets elasticity, toughness, and fracture. That is the dissertation, a first-author theory of <a href="https://doi.org/10.1021/acsmacrolett.3c00010">slide-ring gels</a>, and coauthored papers on <a href="https://doi.org/10.1126/science.adg3229">mechanophore cross-linkers</a>, <a href="https://doi.org/10.1021/acscentsci.5c00932">reactive strand extension</a>, <a href="https://doi.org/10.1021/acsmacrolett.3c00097">chain tension versus bond compression</a>, and the <a href="https://doi.org/10.1021/acsmacrolett.5c00550">Kuhn length under extension</a>.</p>
+    <p>Earlier public tools from that period live in the catalog: <a href="https://github.com/Birfy/ABCDEN">ABCDEN</a>, <a href="https://github.com/Birfy/DSCFT">DSCFT</a>, <a href="https://github.com/Birfy/Endlinking">Endlinking</a>, <a href="https://github.com/Birfy/SCSR">SCSR</a>.</p>
+
+    <ol class="log">
+      <li>
+        <time datetime="2024-06-16">2024-06 → now</time>
+        <div>
+          <h3>Senior Engineer, Huawei, Shanghai</h3>
+          <p>ORCID: Parallel Distributed Computing Laboratory, from 16 June 2024. LinkedIn: AI4S. Two 2026 papers list a Huawei affiliation in Shenzhen. The public work from this period is the agent software above and those papers. I am not inventing unpublished duties here.</p>
+        </div>
+      </li>
+      <li>
+        <time datetime="2022-07">2022-07 → 2024-05</time>
+        <div>
+          <h3>Research Assistant, Duke, with Michael Rubinstein</h3>
+          <p>Molecular-dynamics and Monte Carlo simulation of polymer networks in LAMMPS. The papers and the dissertation sit under Papers.</p>
+        </div>
+      </li>
+      <li>
+        <time datetime="2021-01">2021-01 → 2022-12</time>
+        <div>
+          <h3>Teaching Assistant, Duke</h3>
+          <p>Soft matter, polymer physics, thermodynamics. LinkedIn; no public course numbers.</p>
+        </div>
+      </li>
+      <li>
+        <time datetime="2020-09">2020-09 → 2024-05</time>
+        <div>
+          <h3>Trainee, NSF MONET</h3>
+          <p>Several of the network papers carry this affiliation. In 2024 the Royal Society of Chemistry gave the Materials Chemistry Horizon Prize to NSF MONET as a team; I am listed as a Graduate Student, Duke, on the <a href="https://www.rsc.org/standards-and-recognition/prizes/winners/nsf-center-for-molecularly-optimized-networks">prize page</a>—not as an individual winner.</p>
+        </div>
+      </li>
+      <li>
+        <time datetime="2019">2019–2024</time>
+        <div>
+          <h3>Ph.D., Mechanical Engineering and Materials Science, Duke</h3>
+          <p>Advisor Michael Rubinstein. Dissertation: <a href="https://search.proquest.com/openview/a7b88d838817b336a4bf31e938b5bd2c/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y"><cite>Elasticity and Fracture of Polymer Networks with Entanglements and Weak Crosslinkers</cite></a>.</p>
+        </div>
+      </li>
+      <li>
+        <time datetime="2015">2015–2019</time>
+        <div>
+          <h3>B.S.E., Macromolecular Science, Fudan</h3>
+          <p>Advisor Weihua Li (ORCID misspells “Bachelor”). Exchange, University of Toronto, Faculty of Arts &amp; Science, Sep–Dec 2017.</p>
+        </div>
+      </li>
+    </ol>
+    <p class="note">Also listed on LinkedIn only, and not independently confirmed on issuer sites in the sources I used: Honor Student Award, Fudan (Jul 2019); First Prize, CSIAM Contemporary Undergraduate Mathematical Contest in Modeling (Dec 2018); Duke MEMS Fellowship and MatSci Scholarship (dates not given).</p>
   </section>
 
   <section id="pubs">
     <h2>Papers</h2>
-    <figure class="paper-fig">
-      <img src="img/paper-acscentsci-toc.jpg" width="200" height="140" alt="Graphical abstract, ACS Central Science 2025 (open access, PMC)">
-      <figcaption>Graphical abstract, <i>ACS Central Science</i> 2025 (open access). Fused-ring size (5–12 carbons) of cyclobutane mechanophores varies reactive strand extension while keeping the same initial covalent contour length. Coauthor (8th); Xujun Zheng first.</figcaption>
-    </figure>
     <div class="filters" id="pfilters" role="tablist" aria-label="Publication type">
       <button type="button" class="on" data-f="all" aria-selected="true">All</button>
       <button type="button" data-f="journal" aria-selected="false">Peer-reviewed</button>
@@ -302,12 +217,12 @@
       <h3>Conference abstracts</h3>
       <div id="aps"></div>
     </div>
-    <p class="note">Sources: <a href="https://scholar.google.com/citations?user=T1Z47GMAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0000-0002-5622-1545">ORCID</a> · Crossref and Europe PMC abstracts. Citation counts are a Scholar snapshot from 29 Oct 2026 (Asia/Shanghai). Author order is taken from Crossref. LinkedIn lists the 2025 Kuhn-length paper as <i>Macromolecules</i>; the published venue is <i>ACS Macro Letters</i>. The May 2026 ChemRxiv of the Precision Chemistry article is the earlier preprint of the same work, not a second paper. <i>Strain Stiffening of Flexible Polymer Chains</i> (ChemRxiv 2023) is recorded by Crossref as a preprint of the 2025 Kuhn-length paper and is not a separate journal article.</p>
+    <p class="note">Sources: <a href="https://scholar.google.com/citations?user=T1Z47GMAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0000-0002-5622-1545">ORCID</a>. Citation counts are a Scholar snapshot from 29 Oct 2026 (Asia/Shanghai); a later refresh was blocked by a traffic check. Author order is from Crossref. LinkedIn lists the 2025 Kuhn-length paper as <i>Macromolecules</i>; the published venue is <i>ACS Macro Letters</i>. The May 2026 ChemRxiv is the preprint of the Precision Chemistry article, not a second paper.</p>
   </section>
 
   <section id="repos">
-    <h2>Public repositories</h2>
-    <p>A public snapshot of 11 Nov 2026, 21:30 Asia/Shanghai: all 73 public repositories owned by <a href="https://github.com/Birfy">Birfy</a> (19 originals, 54 forks, none archived), matching the GitHub profile count, plus 2 additional public repositories with a verified authored pull-request signal that are not already represented as an owned fork’s upstream—75 catalog entries in total. Forks are listed with their canonical upstream. The profile’s public organization list is empty. This is a scoped snapshot, not an exhaustive history of every organization contribution (search caps and rate limits apply).</p>
+    <h2>Repos</h2>
+    <p>A public snapshot from 11 Nov 2026, 21:30 Asia/Shanghai: all 73 public repositories I own (19 originals, 54 forks, none archived), matching the GitHub profile count, plus 2 additional public repositories with a verified authored pull-request signal that are not already represented as an upstream of one of my forks—75 catalog entries. My public organization list is empty. This is a scoped snapshot, not an exhaustive history of every organization contribution.</p>
     <details id="repo-catalog">
       <summary>All public repositories <span class="sum-meta">73 owned · 75 catalog entries</span></summary>
       <div id="rcat"></div>
@@ -323,12 +238,12 @@
       <li><a href="https://www.linkedin.com/in/danyang-chen-60a93a134/">LinkedIn</a></li>
       <li><a href="mailto:birfychen@gmail.com">birfychen@gmail.com</a></li>
     </ul>
-    <p class="note">The Duke laboratory page still lists a duke.edu address; the current public contact used here is the GitHub email above.</p>
+    <p class="note">The Duke laboratory page still lists a duke.edu address; the current public contact I use is the GitHub email above.</p>
   </section>
 </main>
 
 <footer>
-  <p>© 2026 Danyang Chen. Machine-readable inventory: <a href="data/repos.json">data/repos.json</a>. How to view a local checkout: <a href="README.md">README</a>.</p>
+  <p>© 2026 Danyang Chen · <a href="data/repos.json">data/repos.json</a></p>
 </footer>
 
 <script src="main.js"></script>
