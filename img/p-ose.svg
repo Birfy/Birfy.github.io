@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Offline skill self-evolution tree">
+  <defs>
+    <linearGradient id="osebg" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0c14"/><stop offset="1" stop-color="#10182a"/>
+    </linearGradient>
+    <linearGradient id="osel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ef0ff"/><stop offset="1" stop-color="#ff6ec7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#osebg)"/>
+  <g fill="none" stroke="url(#osel)" stroke-width="2.4" stroke-linecap="round">
+    <path d="M400 60 L400 140"/>
+    <path d="M400 140 L260 230"/>
+    <path d="M400 140 L540 230"/>
+    <path d="M260 230 L180 330"/>
+    <path d="M260 230 L320 330"/>
+    <path d="M540 230 L460 330"/>
+    <path d="M540 230 L620 330"/>
+    <path d="M180 330 L140 420"/>
+    <path d="M180 330 L230 420"/>
+    <path d="M320 330 L320 420"/>
+    <path d="M460 330 L460 420"/>
+    <path d="M620 330 L580 420"/>
+    <path d="M620 330 L680 420"/>
+  </g>
+  <g>
+    <circle cx="400" cy="60" r="12" fill="#ff6ec7"/>
+    <circle cx="400" cy="140" r="9" fill="#8a6bff"/>
+    <circle cx="260" cy="230" r="9" fill="#8a6bff"/>
+    <circle cx="540" cy="230" r="9" fill="#8a6bff"/>
+    <circle cx="180" cy="330" r="8" fill="#7ef0ff"/>
+    <circle cx="320" cy="330" r="8" fill="#7ef0ff"/>
+    <circle cx="460" cy="330" r="8" fill="#7ef0ff"/>
+    <circle cx="620" cy="330" r="8" fill="#7ef0ff"/>
+    <circle cx="140" cy="420" r="6" fill="#7ef0ff"/>
+    <circle cx="230" cy="420" r="6" fill="#ff6ec7"/>
+    <circle cx="320" cy="420" r="6" fill="#7ef0ff"/>
+    <circle cx="460" cy="420" r="6" fill="#7ef0ff"/>
+    <circle cx="580" cy="420" r="6" fill="#ff6ec7"/>
+    <circle cx="680" cy="420" r="6" fill="#7ef0ff"/>
+  </g>
+  <text x="48" y="48" fill="#7ef0ff" font-family="Outfit,system-ui,sans-serif" font-size="14" letter-spacing="5">OFFSKILLEVO</text>
+  <text x="48" y="455" fill="#8b90a3" font-family="Outfit,system-ui,sans-serif" font-size="13" letter-spacing="3">trajectories · evolve skills · Pareto gate</text>
+</svg>
