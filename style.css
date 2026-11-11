@@ -117,6 +117,11 @@ section h2{
   background:var(--accent-soft);border:1px solid var(--line);
   filter:grayscale(.35) contrast(1.02);
 }
+.project .thumb.mark{
+  object-fit:contain;
+  background:transparent;
+  filter:none;
+}
 .project h3{font-weight:600;font-size:1.2rem;letter-spacing:-.02em;line-height:1.25}
 .project h3 a{color:var(--ink);text-decoration:none}
 .project h3 a:hover{color:var(--accent);text-decoration:underline}
